@@ -8,10 +8,10 @@ from flask import Flask, request, jsonify
 
 # --- CONFIGURATION ---
 # Get these from your dashboards
-GEMINI_API_KEY = "AIzaSyBmjYJD32M1QuYYh1lqLoG-wZUJ1EH0vpo"
-META_ACCESS_TOKEN = """EAAPvyU9OioEBPlZBB4TKBpm2GnjjAZBpC8kBfdTKBez5uCkU0a2bZCUACG1ZBHP9SPTZAGKOSGiMpxDL39M55z8grw5Fo7NeeJ7PkLILmvFww4SBeZAbZCQCzuVz8oBtl4l4Ws5diUZARQ7T5xe4CGfUdEL7tPhc53Kh51BfZC0NWMQMTUF1YiuJCkVLWjU6ye34WjZAZCzAXJkPQc4il64qRA8clJe3ypkz2W6ha3ZBCZB3mRIwkKAZDZD"""
-META_PHONE_NUMBER_ID = "720893277784084"
-VERIFY_TOKEN = "hackathon123" # This must match the token you set in the Meta dashboard
+GEMINI_API_KEY = "#ADD YOUR API KEY"
+META_ACCESS_TOKEN = """ADD YOUR TOKEN KEY"""
+META_PHONE_NUMBER_ID = "ADD TEMP NUMBER"
+VERIFY_TOKEN = "ADD YOURS" # This must match the token you set in the Meta dashboard
 
 # --- INITIALIZATION ---
 
@@ -111,4 +111,5 @@ def webhook():
 # --- MAIN EXECUTION ---
 
 if __name__ == "__main__":
+
     app.run(port=5000, debug=True) # debug=True helps with development
